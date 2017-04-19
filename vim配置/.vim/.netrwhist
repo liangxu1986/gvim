@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/liangx/Project/fsc2004/presim/top/sim/ben'
+let g:netrw_dirhist_2='/home/liangx'
+let g:netrw_dirhist_3='/home/liangx/Project'
+let g:netrw_dirhist_4='/home/liangx'
+let g:netrw_dirhist_5='/home/liangx/.matlab'
+let g:netrw_dirhist_6='/home/liangx/Project/GM8181_portable/src'
