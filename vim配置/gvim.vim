@@ -42,6 +42,8 @@ colorscheme molokai
 syntax on
 filetype on
 
+" file-type plugin
+filetype plugin on
 
 " Set syntax highlighting for specific file types
 "autocmd BufRead,BufNewFile Appraisals set filetype=ruby
@@ -73,8 +75,7 @@ nnoremap <silent> <F5> :NERDTree<CR>
 
 
 " super tab plugin
-"let g:SuperTabRetainCompletionType  = 2
-let g:SuperTabRetainCompletionType  = 'context'
+let g:SuperTabRetainCompletionType  = 2
 let g:SuperTabDefaultCompletionType = "<C-N><C-P>"
 
 """"""""""""""""""""""""""""""
@@ -248,3 +249,7 @@ function TitleDet()
 endfunction
 
 autocmd BufNewFile *.v,*.sv,*.vh,*.svh exec ":call TitleDet()"
+
+"HiMatchOn
+"" If this variable is set, augroup is defined, and start highlighting.
+let g:hl_matchit_enable_on_vim_startup = 1
